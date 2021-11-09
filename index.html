@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<!-- Display -->
+    <div class="row display">
+        <h1>0</h1>
+        <p>0</p>
+    </div>
+<!-- Buttons -->
+    <div class="row">
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary clear" id="clear" onclick="this.blur();">C</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary modulo" id ="modulo" onclick="this.blur();"><i class="fas fa-percent"></i></button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary divide" id="divide" onclick="this.blur();"><i class="fas fa-divide"></i></button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary backspace" id="backspace"onclick="this.blur();"><i class="fas fa-backspace"></i></button>
+    </div>
+    <div class="row">
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 seven" id="seven" onclick="this.blur();">7</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 eight" id="eight" onclick="this.blur();">8</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 nine" id="nine" onclick="this.blur();">9</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 multiply" id="multiply" onclick="this.blur();">x</button>
+    </div>
+    <div class="row">
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 four" id="four" onclick="this.blur();">4</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 five" id="five" onclick="this.blur();">5</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 six" id="six" onclick="this.blur();">6</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 subtract" id="subtract" onclick="this.blur();">-</button>
+    </div>
+    <div class="row">
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 one" onclick="this.blur();">1</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 two" onclick="this.blur();">2</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 three" onclick="this.blur();">3</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 add" id="add"onclick="this.blur();">+</button>
+    </div>
+    <div class="row">  
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 dot" onclick="this.blur();">.</button>
+        <button class="btn btn-light btn-lg col-3 shadow-none border-secondary border-top-0 zero" id="zero" onclick="this.blur();">0</button>
+        <button class="btn btn-light btn-lg col-6 shadow-none border-secondary border-top-0 equal" id="equal" onclick="this.blur();">=</button>
+    </div>
+
+</div> 
+<script src="https://kit.fontawesome.com/4e00cc2942.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
