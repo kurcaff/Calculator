@@ -167,19 +167,3 @@ function backspace (inputId) {
         }
     }
 }
-//Try using number.input
-
-//Try calculator can take more then one-digit numbers
-
-//Try another event listener pushing in newVal2[] & add newVal + newVal2 
-
-// Sekoj input go sobira u string "22+33-33%5..."
-
-
-
-
-// if (prevVal.length > 12) {
-//     prevVal.slice(0, 10)
-//     newVal.slice(0, 10)
-
-// }
